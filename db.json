@@ -1,35 +1,39 @@
 {
-  "title": "Tech Innovators Conference",
-  "location": "London, UK",
-  "image": "https://picsum.photos/600/300",
-  "description": "An annual conference showcasing the latest in technology and innovation.",
-  "start_date_time": "2024-12-01 09:00"
-},
-{
-  "title": "Art Exhibition: Modern Perspectives",
-  "location": "Manchester, UK",
-  "image": "https://picsum.photos/600/300",
-  "description": "Explore contemporary art from talented UK-based artists.",
-  "start_date_time": "2024-12-05 10:00"
-},
-{
-  "title": "Winter Gala Charity Ball",
-  "location": "Edinburgh, UK",
-  "image": "https://picsum.photos/600/300",
-  "description": "A night of elegance and entertainment to support local charities.",
-  "start_date_time": "2024-12-15 19:00"
-},
-{
-  "title": "Startup Pitch Night",
-  "location": "Bristol, UK",
-  "image": "https://picsum.photos/600/300",
-  "description": "Aspiring entrepreneurs present their ideas to investors.",
-  "start_date_time": "2024-12-20 18:00"
-},
-{
-  "title": "Music Fest: Sounds of the Season",
-  "location": "Cardiff, UK",
-  "image": "https://picsum.photos/600/300",
-  "description": "Celebrate the season with performances from top UK artists.",
-  "start_date_time": "2024-12-22 15:00"
+  "events": [
+      {
+        "title": "Tech Innovators Conference",
+        "location": "London, UK",
+        "image": "https://picsum.photos/600/300",
+        "description": "An annual conference showcasing the latest in technology and innovation.",
+        "start_date_time": "2024-12-01 09:00"
+      },
+      {
+        "title": "Art Exhibition: Modern Perspectives",
+        "location": "Manchester, UK",
+        "image": "https://picsum.photos/600/300",
+        "description": "Explore contemporary art from talented UK-based artists.",
+        "start_date_time": "2024-12-05 10:00"
+      },
+      {
+        "title": "Winter Gala Charity Ball",
+        "location": "Edinburgh, UK",
+        "image": "https://picsum.photos/600/300",
+        "description": "A night of elegance and entertainment to support local charities.",
+        "start_date_time": "2024-12-15 19:00"
+      },
+      {
+        "title": "Startup Pitch Night",
+        "location": "Bristol, UK",
+        "image": "https://picsum.photos/600/300",
+        "description": "Aspiring entrepreneurs present their ideas to investors.",
+        "start_date_time": "2024-12-20 18:00"
+      },
+      {
+        "title": "Music Fest: Sounds of the Season",
+        "location": "Cardiff, UK",
+        "image": "https://picsum.photos/600/300",
+        "description": "Celebrate the season with performances from top UK artists.",
+        "start_date_time": "2024-12-22 15:00"
+      }
+    ] 
 }
