@@ -34,6 +34,41 @@
         "image": "https://picsum.photos/600/300",
         "description": "Celebrate the season with performances from top UK artists.",
         "start_date_time": "2024-12-22 15:00"
+      },
+      {
+        "title": "Health & Wellness Retreat",
+        "location": "Bath, UK",
+        "image": "https://picsum.photos/600/300",
+        "description": "A weekend retreat focused on relaxation, mindfulness, and wellness.",
+        "start_date_time": "2024-12-02 08:00"
+      },
+      {
+        "title": "Christmas Market Extravaganza",
+        "location": "York, UK",
+        "image": "https://picsum.photos/600/300",
+        "description": "Experience a festive market with unique gifts, food, and music.",
+        "start_date_time": "2024-12-10 11:00"
+      },
+      {
+        "title": "Cooking Masterclass: Holiday Edition",
+        "location": "Birmingham, UK",
+        "image": "https://picsum.photos/600/300",
+        "description": "Learn to prepare delicious holiday dishes with professional chefs.",
+        "start_date_time": "2024-12-12 14:00"
+      },
+      {
+        "title": "New Year's Eve Fireworks Spectacular",
+        "location": "Liverpool, UK",
+        "image": "https://picsum.photos/600/300",
+        "description": "Ring in the New Year with a spectacular fireworks display.",
+        "start_date_time": "2024-12-31 20:00"
+      },
+      {
+        "title": "Photography Workshop: Winter Landscapes",
+        "location": "Glasgow, UK",
+        "image": "https://picsum.photos/600/300",
+        "description": "Learn tips and techniques for capturing stunning winter landscapes.",
+        "start_date_time": "2024-12-18 09:00"
       }
     ] 
 }
