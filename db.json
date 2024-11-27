@@ -1,6 +1,7 @@
 {
   "events": [
       {
+        "id": "0001",
         "title": "Tech Innovators Conference",
         "location": "London, UK",
         "image": "https://picsum.photos/600/300",
@@ -8,6 +9,7 @@
         "start_date_time": "2024-12-01 09:00"
       },
       {
+        "id": "0002",
         "title": "Art Exhibition: Modern Perspectives",
         "location": "Manchester, UK",
         "image": "https://picsum.photos/600/300",
@@ -15,6 +17,7 @@
         "start_date_time": "2024-12-05 10:00"
       },
       {
+        "id": "0003",
         "title": "Winter Gala Charity Ball",
         "location": "Edinburgh, UK",
         "image": "https://picsum.photos/600/300",
@@ -22,6 +25,7 @@
         "start_date_time": "2024-12-15 19:00"
       },
       {
+        "id": "0004",
         "title": "Startup Pitch Night",
         "location": "Bristol, UK",
         "image": "https://picsum.photos/600/300",
@@ -29,6 +33,7 @@
         "start_date_time": "2024-12-20 18:00"
       },
       {
+        "id": "0005",
         "title": "Music Fest: Sounds of the Season",
         "location": "Cardiff, UK",
         "image": "https://picsum.photos/600/300",
@@ -36,6 +41,7 @@
         "start_date_time": "2024-12-22 15:00"
       },
       {
+        "id": "0006",
         "title": "Health & Wellness Retreat",
         "location": "Bath, UK",
         "image": "https://picsum.photos/600/300",
@@ -43,6 +49,7 @@
         "start_date_time": "2024-12-02 08:00"
       },
       {
+        "id": "0007",
         "title": "Christmas Market Extravaganza",
         "location": "York, UK",
         "image": "https://picsum.photos/600/300",
@@ -50,6 +57,7 @@
         "start_date_time": "2024-12-10 11:00"
       },
       {
+        "id": "0008",
         "title": "Cooking Masterclass: Holiday Edition",
         "location": "Birmingham, UK",
         "image": "https://picsum.photos/600/300",
@@ -57,6 +65,7 @@
         "start_date_time": "2024-12-12 14:00"
       },
       {
+        "id": "0009",
         "title": "New Year's Eve Fireworks Spectacular",
         "location": "Liverpool, UK",
         "image": "https://picsum.photos/600/300",
@@ -64,6 +73,7 @@
         "start_date_time": "2024-12-31 20:00"
       },
       {
+        "id": "0010",
         "title": "Photography Workshop: Winter Landscapes",
         "location": "Glasgow, UK",
         "image": "https://picsum.photos/600/300",
