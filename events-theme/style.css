@@ -1,0 +1,208 @@
+/*
+Theme Name: Events Theme
+Author: Andre DeCarlo
+Description: A custom theme for Events.
+Version: 1.0
+*/
+
+*{
+  	-webkit-transition: all 0.8s ease-out;
+  	-moz-transition: all 0.8s ease-out;
+  	-o-transition: all 0.8s ease-out;
+  	transition: all 0.8s ease-out;
+}
+
+/* Custom Scrollbar CSS */
+::-webkit-scrollbar {
+  	width: 5px;
+}
+::-webkit-scrollbar-track {
+  	background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  	background: #f15a24; 
+}
+::-webkit-scrollbar-thumb:hover {
+  	background: #f15a24; 
+}
+
+body{
+    font-family: "Anaheim", sans-serif;
+}
+
+/* CSS to compensate for the WP Admin bar when logged in */
+.admin-bar nav.fixed-top{
+	top: 32px;
+}
+
+body.admin-bar main{    
+	margin-top: 100px!important;
+	margin-bottom: 100px!important;
+	min-height: calc(100vh - 288px);
+}
+/* ------------------------------------------------ */
+
+main{    
+	margin-top: 100px!important;
+	margin-bottom: 100px!important;
+	min-height: calc(100vh - 256px);
+}
+
+nav{
+	background: #FFF;
+	box-shadow: 0px 0px 15px #ccc;
+}
+
+a.custom-logo-link img{
+	max-height: 25px;
+    width: auto;
+    margin-right: 15px;
+}
+
+.nav-link {
+	color: #707070
+}
+
+li.current-menu-item a.nav-link {
+	color: #000000;
+	font-weight:600;
+}
+
+/* ----- Nav Toggler CSS -----*/
+button.navbar-toggler {
+	cursor: pointer;
+	position: relative;
+	width: 2.5rem;
+	height: 2rem;
+	padding: 0.5rem 0.75rem;
+	font-size: 1.25rem;
+	line-height: 1rem;
+	border: 0px!important;
+	box-shadow: none!important;
+
+}
+.navbar-toggler span {
+	display: block;
+	position: absolute;
+	height: 2px;
+	width: 50%;
+	background: #55595c;
+	border-radius: 1px;
+	opacity: 1;
+	left: 25%;
+	transform: rotate(0deg);
+	transition: 0.25s ease-in-out;
+}
+.navbar-toggler span:nth-child(1) {
+  	top: 34.5%;
+}
+.navbar-toggler span:nth-child(2), .navbar-toggler span:nth-child(3) {
+  	top: 50%;
+}
+.navbar-toggler span:nth-child(4) {
+  	top: 65.5%;
+}
+.navbar-toggler.open span:nth-child(1) {
+	top: 18px;
+	width: 0%;
+	left: 50%;
+}
+.navbar-toggler.open span:nth-child(2) {
+  	transform: rotate(45deg);
+}
+.navbar-toggler.open span:nth-child(3) {
+  	transform: rotate(-45deg);
+}
+.navbar-toggler.open span:nth-child(4) {
+  	top: 18px;
+  	width: 0%;
+  	left: 50%;
+}
+/* ----- End of Nav Toggler CSS -----*/
+
+.jumbotron{
+	background-size: cover;
+    background-position: center;
+	margin-bottom: 40px;
+}
+
+.jumbotronBanner{
+	background: #00000055;
+    max-width: 600px;
+    padding: 25px;
+    margin-top: 50px;
+	color: #FFF;
+}
+
+.jumbotronBanner p{
+	margin-bottom: 0;
+}
+
+.jumbotronBanner a.btn-primary{
+	background: #000;
+    border: 0;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.card {
+	border: 0px;
+	box-shadow: 0px 0px 15px #ccc;
+}
+.card:hover {
+	box-shadow: 0px 0px 15px #bababa;
+}
+.card-Link{
+	text-decoration: none;
+}
+.card-title{
+	font-weight: 700;
+    margin-bottom: 0;
+}
+.card-text{
+	margin-bottom: 5px;
+}
+.card-text.dateTime{
+	font-size: 18px;
+}
+
+.postTitle{
+	margin-top: 15px
+}
+
+.postThumbnail{
+	background-size: cover;	
+    background-position: center;
+	min-height: 250px;
+	width: 100%;
+	border-radius: 8px 8px 0 0;
+}
+
+.back-link{
+	text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    gap: 6px;
+    color: #f05d37;
+    margin-bottom: 20px;
+    align-items: center;
+    line-height: 1px;
+}
+
+footer{
+	background: #f15a24
+}
+footer p{
+	margin-bottom: 0;
+}
+
+@media (max-width: 767px){
+	main{    
+		margin-top: 80px!important;
+		margin-bottom: 80px!important;
+		min-height: calc(100vh - 216px);
+	}	
+}
+
